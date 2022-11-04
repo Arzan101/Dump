@@ -1,0 +1,15 @@
+Switch) enable 
+Switch#configure terminal
+Switch(config)#vlan2
+#name purchase 
+#exit 
+Switch (config)#valn3 
+#name sales 
+#exit 
+#interface fastehernet 0/1
+#switchport access vlan2
+________0/2,0/3 valn3 ,0/4 valn3
+
+#exit 
+#exit 
+#copy running-config startup-config
